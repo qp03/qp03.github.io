@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+d* {
+    outline: 1px dotted lime;
+}
+
+body {
+    background-color: mintcream;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background-color: mintcream;
+    color: navy;
+    height: 0px;
+    border-bottom: 20px solid white;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.logo {
+    margin-top: 55px;
+    font-size: 2rem;
+}
+
+.links {
+    margin-top: 65px;
+    margin-right: 400px;
+    font-size: 1.3rem;
+    text-align: right;
+}
+    
+.links a {
+    color: navy;
+    padding-left: 50px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+    
+#services_container {
+    background-color: mintcream;
+    color: navy;
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-left: 100px;;
+    max-width: 750px;
+    height: 400px;
+}
+
+#services_container h1 {
+    font-weight: bold;
+    margin-top: 160px;
+}
+
+#works {
+    color: navy;
+    background-color: mintcream;
+    border-bottom: 6px solid #323746;
+    border-top: 6px solid #FFF;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#works .centered {
+    margin: auto;
+    margin-left: 80px;
+}
+
+#works a {
+    border: 1px solid #666D89;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+}
+
+#portfolio #gallery {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 100px);    
+}
+
+.photography {
+    background-color: #F16C65;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.photography img {
+    max-width: 780px;
+    width: 90%;
+    

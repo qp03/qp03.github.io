@@ -91,21 +91,43 @@ body {
     margin-right: 20px;
 }
 
-#branding
-
-#portfolio #gallery {
-    display: grid;
-    grid-template-rows: repeat(2, 100px);
-    grid-template-columns: repeat(2, 100px);    
+#branding {
+    color: midnightblue;
+    border: 20px;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
-.photography {
-    background-color: #F16C65;
-    padding: 20px 0;
-    text-align: center;
+#contents {
+    color: midnightblue;
+    border: 20px;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
-.photography img {
-    max-width: 780px;
-    width: 90%;
+#photography {
+    color: midnightblue;
+    border: 20px;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+#window {
+    color: midnightblue;
+    border: 20px;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+#online {
+    color: midnightblue;
+    border: 20px;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+}
     

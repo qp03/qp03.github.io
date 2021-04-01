@@ -54,9 +54,10 @@ body {
     height: 400px;
 }
 
-#services_container h1 {
-    font-weight: bold;
-    margin-top: 180px;
+#service_container .image {
+    margin-left: 400px;
+    background-color: antiquewhite;
+    
 }
 
 #works {
@@ -71,7 +72,7 @@ body {
 
 #works .centered {
     margin: auto;
-    margin-left: 80px;
+    margin-left: 185px;
     margin-right: 80px;
 }
 
@@ -94,6 +95,11 @@ body {
 #branding {
     color: midnightblue;
     border: 20px;
+    border-bottom: 20px;
+    border-bottom-color: midnightblue;
+    border-top: 20px;
+    border-right: 20px;
+    border-left: 20px;
     background-color: white;
     font-size: 1.1em;
     line-height: 2em;
@@ -129,5 +135,8 @@ body {
     background-color: white;
     font-size: 1.1em;
     line-height: 2em;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
 }
     

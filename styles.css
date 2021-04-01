@@ -121,7 +121,7 @@ body {
 
 .twopic img {
     resize: both;
-    margin-top: -140px;
+    margin-top: -210px;
     margin-left: 190px;
 }
 
@@ -139,6 +139,12 @@ body {
     resize: both;
     margin-top: -210px;
     margin-left: 190px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
 }
 
 #window h3 {
@@ -194,6 +200,10 @@ body {
     padding: 40px;
 }
 
+#photography h3 {
+    text-decoration: underline;
+}
+
 #window {
     color: midnightblue;
     border: 20px;
@@ -234,6 +244,11 @@ body {
 
 #online h3 {
     text-decoration: underline;
+}
+
+.sunscreen1 {
+    margin-right: 50ps;
+    margin-left: 180px;
 }
 
 
